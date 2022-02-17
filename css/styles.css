@@ -1,0 +1,28 @@
+body {
+  font-family: "IM Fell French Canon", serif; }
+
+h1, h2, h3 {
+  font-family: "Uchen", serif;
+  color: #1E96FC; }
+
+header h2 {
+  color: #072AC8; }
+
+.site-footer {
+  background-image: linear-gradient(#FCF300, #FFC600);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #A2D6F9, #1E96FC, #072AC8);
+  color: white; }
+
+.navbar {
+  background-color: #FFC600; }
+
+.carousel {
+  border: solid #FCF300; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }

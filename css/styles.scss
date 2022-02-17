@@ -1,0 +1,48 @@
+$color-primary: #FFC600;
+$color-secondary: #FCF300;
+$color-pale: #A2D6F9;
+$color-mid: #1E96FC;
+$color-dark: #072AC8;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "IM Fell French Canon", serif;
+$header-font: "Uchen", serif;
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+    color: $color-mid;
+}
+
+header {
+    h2 {
+        color: $color-dark;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient($color-secondary, $color-primary);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-pale, $color-mid, $color-dark);
+    color: white;
+}
+
+.navbar {
+    background-color: $color-primary;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}

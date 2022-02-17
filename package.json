@@ -1,0 +1,39 @@
+{
+  "name": "marshal.rocks",
+  "version": "1.0.0",
+  "description": "website developer",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin assets/img/* -o dist/assets/img",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin shop.html -d dist --htmlmin -o dist/shop.html ",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run copyfonts && npm run usemin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remarshal/marshal-rocks.git"
+  },
+  "author": "remarshal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remarshal/marshal-rocks/issues"
+  },
+  "homepage": "https://github.com/remarshal/marshal-rocks#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "imagemin-cli": "^7.0.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "font-awesome": "^4.7.0"
+  }
+}
