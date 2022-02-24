@@ -2,3 +2,5 @@ node_modules
 temp
 dist
 readme.md
+vendor
+vendor-template
