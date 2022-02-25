@@ -1253,9 +1253,14 @@ section {
     padding: 3rem;
   }
 }
-
 .blog-wrapper .article-title {
   font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #003049;
 }
 @media (min-width: 768px) {
   .blog-wrapper .article-title {
@@ -1321,6 +1326,19 @@ section {
   margin-left: 40px;
 }
 
+/*------/ Leave Reply /------*/
+.reply-form button[type=submit] {
+  background: #0000ff;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.reply-form button[type=submit]:hover {
+  background: #0000ffbd;
+}
+
 /*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
@@ -1378,8 +1396,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #EDF2F4;
+  color: #003049;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1391,6 +1409,16 @@ section {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
+  color: #D90429;
+}
+#footer h3 span {
+  font-size: 36px;
+  font-weight: 500;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+  color: #003049;
 }
 #footer p {
   font-size: 15;
@@ -1404,7 +1432,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #D90429;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1416,7 +1444,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #EF233C;
   color: #fff;
   text-decoration: none;
 }
