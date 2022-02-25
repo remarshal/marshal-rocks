@@ -641,12 +641,13 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+.resume .resume-heading {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #003049;
+  color: #D90429;
+  text-transform: uppercase;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
