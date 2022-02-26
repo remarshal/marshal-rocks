@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active:focus > a {
   color: #fff;
-  background: #EF233C;
+  background: #D90429;
 }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
@@ -1063,6 +1063,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1186,6 +1187,25 @@ section {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
+#blog {
+background-color:#D90429;
+color: #fff;
+}
+#blog h2 {
+  color: #fff
+  }
+
+ #blog .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #003049;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
 @media (min-width: 767px) {
   .card-blog {
     margin-bottom: 3rem;
@@ -1193,6 +1213,11 @@ section {
 }
 .card-blog .card-body {
   position: relative;
+}
+.card-blog:hover  {
+  position: relative;
+  -webkit-clip-path: inset(.25rem);
+  clip-path: inset(.25rem);
 }
 .card-blog .card-category-box {
   position: absolute;
