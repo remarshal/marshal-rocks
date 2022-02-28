@@ -531,7 +531,12 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
+.headshot {
+  width: 300px;
+  /* position: relative; */
+  border-radius: 50%;
+  padding: 30px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -834,6 +839,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+#portfolio-details {
+  margin-top: 30px;
+}
 .portfolio-info h3 {
   color: #D90429;
 }
@@ -1166,6 +1174,7 @@ section {
   background: #0000ff;
   border: 0;
   padding: 10px 35px;
+  margin: 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
